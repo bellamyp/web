@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellamy Phan - Software Engineer Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: 3rem auto;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 3rem;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        section p, section ul {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Button Styles */
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin: 10px 0;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .highlight {
+            background-color: #FF6F61;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .highlight:hover {
+            background-color: #e45749;
+        }
+
+        /* Highlight Personal Project Section */
+        .personal-project {
+            background-color: #e6ffe6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            section h2 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bellamy Phan</h1>
+    <p>Software Engineer | Cloud Enthusiast | Problem Solver</p>
+</header>
+
+<div class="container">
+
+    <!-- About Me Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a passionate Software Engineer with a strong background in cloud computing and full-stack development. I specialize in creating reliable and efficient applications using Java, Spring Boot, Angular, and AWS. I am always eager to learn new technologies and improve my problem-solving skills.</p>
+        <a href="http://bellamy-web-angular.s3-website.us-east-2.amazonaws.com" class="button">Visit My Website</a>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section>
+        <h2>Professional Experience</h2>
+        <h3>Cognizant Technology Solutions – Irving, TX</h3>
+        <p><strong>Software Engineer</strong> | June 2022 – April 2024</p>
+        <ul>
+            <li>Developed IVR call flow test cases using Cyara Platform; managed workflows in Jira.</li>
+            <li>Conducted regression testing for contact center applications to ensure system performance.</li>
+            <li>Debugged and optimized AWS Lambda, Amazon Connect, DynamoDB, and CloudWatch applications.</li>
+            <li>Collaborated with cross-functional teams to resolve complex issues in credit card processing systems.</li>
+        </ul>
+
+        <h3>Micro Focus – Houston, TX</h3>
+        <p><strong>Software Engineer Intern</strong> | August 2021 – June 2022</p>
+        <ul>
+            <li>Developed and tested RESTful APIs using Java, JUnit, Selenium, and Groovy.</li>
+            <li>Automated system integration tests using Jenkins to improve deployment reliability.</li>
+            <li>Debugged and optimized web elements with HTML, XML, and XPath.</li>
+        </ul>
+
+        <h3>Illuma Labs – Dallas, TX</h3>
+        <p><strong>Software Engineer Intern</strong> | January 2021 – June 2022</p>
+        <ul>
+            <li>Processed large datasets from Amazon RDS using AWS Glue and Athena for voice recognition and fraud detection.</li>
+            <li>Designed and implemented data pipelines using S3, MySQL, and AWS Data Lake.</li>
+        </ul>
+    </section>
+
+    <!-- Highlighted Personal Project Section -->
+    <section class="personal-project">
+        <h2>Highlighted Personal Project</h2>
+        <h3><a href="http://angular-money-app.s3-website.us-east-2.amazonaws.com/transactions" target="_blank" class="highlight">Money-app-fullstack deployed on AWS</a></h3>
+        <ul>
+            <li>Beanstalk (Spring Boot)</li>
+            <li>RDS for MySQL</li>
+            <li>S3 static host Angular</li>
+        </ul>
+        <a href="http://angular-money-app.s3-website.us-east-2.amazonaws.com/transactions" target="_blank" class="highlight">View the Project</a>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Other Projects</h2>
+        <h3><a href="https://github.com/BellamyPhan/employee-management-system" target="_blank" class="button">Full-Stack Employee Management System</a></h3>
+        <ul>
+            <li>Built a full-stack CRUD web application using Angular, Java Spring Boot, and MongoDB Atlas.</li>
+        </ul>
+        <h3><a href="https://github.com/BellamyPhan/tetris-game" target="_blank" class="button">Tetris Game (Java AWT & Swing)</a></h3>
+        <ul>
+            <li>Developed a graphical Java-based Tetris game using Java AWT and Swing.</li>
+        </ul>
+        <h3><a href="https://github.com/BellamyPhan/money-budget-app" target="_blank" class="button">Money Budget App (JavaFX)</a></h3>
+        <ul>
+            <li>Created a banking and budget tracking application using JavaFX.</li>
+            <li>Refactoring into a full-stack web app with Angular frontend, Java Spring backend, and MongoDB hosted on AWS Elastic Beanstalk.</li>
+        </ul>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Languages & Frameworks:</strong> Java, Spring Boot, Hibernate, JavaFX, REST APIs, JUnit, Selenium, Groovy</li>
+            <li><strong>Front-End:</strong> HTML5, CSS3, JavaScript, Angular, Thymeleaf</li>
+            <li><strong>Databases & Cloud:</strong> MySQL, MongoDB, AWS (RDS, DynamoDB, S3, Lambda, CloudWatch, Athena, Glue)</li>
+            <li><strong>Tools & Platforms:</strong> Git, GitHub, GitLab, Jira, Jenkins, Confluence, IntelliJ, Eclipse</li>
+            <li><strong>Testing & Automation:</strong> Unit Testing, Integration Testing, Regression Testing, IVR Application Testing, Contact Center Testing</li>
+            <li><strong>Methodologies:</strong> Agile, Scrum, Test-Driven Development (TDD), Waterfall</li>
+        </ul>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section>
+        <h2>Education & Certifications</h2>
+        <p><strong>Bachelor of Science in Computer Science</strong> | University of Texas at Dallas | GPA: 3.9/4.0</p>
+        <ul>
+            <li>AWS Certified Cloud Practitioner (Credly)</li>
+            <li>Cyara Certified Expert</li>
+            <li>Udemy Certifications:
+                <ul>
+                    <li>Deploying AWS Spring Boot Apps</li>
+                    <li>Java Spring Boot 3 & Hibernate</li>
+                    <li>Java JDBC & MySQL</li>
+                    <li>Relational Database Design</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+</div>
+
+</body>
+</html>
